@@ -9,4 +9,4 @@ The API will also expose the core d3 objects where possible so that as users gai
 Please visit the main website [dimplejs.org](http://dimplejs.org "dimple.js") for more information and examples.
 
 ###Other Notes###
-JS Fiddle [http://jsfiddle.net/farrukhsubhani/S6FLv/7/]
+Use [JS Fiddle Interactive Sample] (http://jsfiddle.net/farrukhsubhani/S6FLv/7/ "JS Fiddle Interactive Sample")
