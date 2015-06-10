@@ -1,0 +1,27 @@
+Udacity Data Visualization Course:
+
+Download basic_charts
+https://www.udacity.com/course/viewer#!/c-ud507/l-3168988586/e-3197778880/m-3226128759
+Download and Install Python 2.7
+
+Edit basic_charts.html
+	Add the debugger; statement to line 19 of the basic_charts.html file like Jonathan did.
+
+Using the terminal, navigate to the folder that contains your basic_charts.html and world_cup.tsv files. Then, start the local server by typing python -m SimpleHTTPServer into the command line. If you are using Python 3 the command to start the local server is python3 -m http.server.
+
+To stop the server navigate to the terminal window it is running in and type Control-C to quit the process.
+
+Open a tab in your web browser and enter localhost:8000 or localhost:8888 in the address bar (your port number may be different) and try opening the basic_charts.html file!
+
+
+In Chrome Terminal,
+you can print entire data of collection:
+e.g. console.table(data) where data is an array of objects
+
+
+Execution Path:
+
+d3.tsv("world_cup.tsv", draw); // loads data file and passes it to draw
+function draw(data) // call back function
+this data object is then passed to dimple objects
+var myChart = new dimple.chart(svg, data)
