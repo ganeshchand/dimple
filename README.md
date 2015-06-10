@@ -7,3 +7,6 @@ The intention of this project is to allow analysts who are not necessarily exper
 The API will also expose the core d3 objects where possible so that as users gain confidence they can extend the base functionality in whatever way they wish.
 
 Please visit the main website [dimplejs.org](http://dimplejs.org "dimple.js") for more information and examples.
+
+###Other Notes###
+JS Fiddle [http://jsfiddle.net/farrukhsubhani/S6FLv/7/]
