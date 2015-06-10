@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -5,6 +6,7 @@
 </head>
 <body>
 <script type="text/javascript">
+    d3.select('body').append('h2').text("Sample Chart");
     var svg = dimple.newSvg("body", 800, 600);
     var data = [
         { "Word":"Hello", "Awesomeness":2000 },

@@ -10,3 +10,6 @@ Please visit the main website [dimplejs.org](http://dimplejs.org "dimple.js") fo
 
 ###Other Notes###
 Use [JS Fiddle Interactive Sample] (http://jsfiddle.net/farrukhsubhani/S6FLv/7/ "JS Fiddle Interactive Sample")
+Udacity tutorial [ Data Visualization and D3.js] (https://www.udacity.com/wiki/ud507)
+
+D3 Stack [D3 Stack] (http://schoolofdata.org/2013/08/12/climbing-the-d3-js-visualisation-stack/)
