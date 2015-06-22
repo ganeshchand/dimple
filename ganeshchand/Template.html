@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Dimple JS Sample Chart</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.1.2.min.js"></script>
+
+</head>
+<body>
+<script type="text/javascript">
+    d3.select('body').append('h2').text("Dimple JS Template");
+</script>
+<div id="chartContainer">
+    <!-- paste code from http://dimplejs.org/examples_index.html -->
+    <script type="text/javascript">
+        var svg = dimple.newSvg("#chartContainer", 590, 400);
+        d3.tsv("../data/example_data.tsv", function (data) {
+            var myChart = new dimple.chart(svg, data);
+            //debugger;
+            myChart.setBounds(20, 20, 460, 360)
+            // Add chart specific codes here
+            // add x-axis
+            // add y-axis
+            // add series
+            // add legend
+            myChart.draw();
+        });
+    </script>
+</div>
+</body>
+</html>
